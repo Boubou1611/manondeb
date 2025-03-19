@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import '../LoadingScreen.css';
-import gifImage from '../assets/images/Av1.gif';
+import gifImage from '/assets/images/Av1.gif';
 
 const LoadingScreen = ({ onAnimationEnd }: { onAnimationEnd: () => void }) => {
   const [animate, setAnimate] = useState(false);
